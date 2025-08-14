@@ -1,0 +1,12 @@
+#!/bin/bash
+# Railway deployment script
+
+echo "Building client..."
+npm run build || exit 1
+
+echo "Creating public directory..."
+mkdir -p server/public
+cp -r client/dist/* server/public/
+
+echo "Starting server..."
+npm start
