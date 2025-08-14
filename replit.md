@@ -8,6 +8,14 @@ This is a modern web-based code analysis tool that provides security scanning, b
 
 Preferred communication style: Simple, everyday language.
 
+## Recent Changes
+
+**GitHub Integration (August 2025)**
+- Successfully uploaded project to GitHub repository
+- Added comprehensive README.md with Indonesian language support
+- Created MIT License and environment configuration template
+- Project now ready for public collaboration and deployment
+
 ## System Architecture
 
 ### Frontend Architecture
