@@ -1,14 +1,16 @@
 [phases.setup]
+# Pin ke channel nixpkgs yang stabil
 nixPkgs = ['nodejs', 'npm']
+nixPkgsVersion = 'https://github.com/NixOS/nixpkgs/archive/nixos-23.05.tar.gz'
 
 [phases.install]
 cmds = ['npm ci']
 
 [phases.build]
 cmds = [
-  'npm run build',
-  'mkdir -p server/public',
-  'cp -r client/dist/* server/public/'
+    'npm run build',
+    'mkdir -p server/public',
+    'cp -r client/dist/* server/public'
 ]
 
 [start]
