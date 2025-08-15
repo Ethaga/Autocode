@@ -1,5 +1,5 @@
 [phases.setup]
-# Pin ke channel nixpkgs yang stabil
+# Install Node.js and npm from a stable nixpkgs version
 nixPkgs = ['nodejs', 'npm']
 nixPkgsVersion = 'https://github.com/NixOS/nixpkgs/archive/nixos-23.05.tar.gz'
 
