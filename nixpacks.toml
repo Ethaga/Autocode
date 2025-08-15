@@ -1,8 +1,7 @@
 [phases.build]
-cmds = ["npm run install"
+cmds = [ "npm run install"
   "npm run build",
   "mkdir -p server/public",
-  "cp -r client/dist/* server/public/"
-]
+  "cp -r client/dist/* server/public/" ]
 [start]
 cmd = "npm start"
